@@ -104,6 +104,39 @@ right: -60px;
   font-weight: 400;
 }
 
+<style>
+    .card {
+        height: 100%; /* Ensure all cards have the same height */
+        width: 100%; /* Ensure all cards have the same width */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-img-top {
+        height: 200px; /* Set a fixed height for the images */
+        object-fit: cover; /* Ensure the images cover the entire container */
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .btn-group {
+        margin-top: 10px;
+    }
+</style>
 
 
 
